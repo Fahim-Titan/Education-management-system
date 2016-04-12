@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Request;
 
 use App\Http\Requests;
-
+use App\User;
 
 class front extends Controller
 {
@@ -29,7 +29,10 @@ class front extends Controller
     public function save_user(){
         $input = Request::all();
 
-        return $input;
+        User::create($input);
+        return "i guess it worked";
+        //return $input;
+
 
     }
 }
