@@ -2,18 +2,21 @@
 
 namespace App;
 
-use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Database\Eloquent\Model;
 
-class User extends Authenticatable
+class User extends Model
 {
+    protected $table = 'user';
+    public $timestamps = false;
     /**
      * The attributes that are mass assignable.
      *
      * @var array
      */
-    protected $fillable = [
-        'name', 'email', 'password',
+    protected $fillable  = [
+        'name', 'email', 'address','sex', 'phoneNumber', 'dob',
     ];
+
 
     /**
      * The attributes that should be hidden for arrays.
@@ -23,4 +26,9 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    public function admin(){
+        return $this->hasOne('app\admin');
+    }
+
 }

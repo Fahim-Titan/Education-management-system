@@ -20,3 +20,6 @@ Route::get('/admin', function(){
 });
 
 Route::get('/admin/add_user','front@add_user');
+Route::get('/admin/add_teacher','front@add_teacher');
+Route::get('/admin/add_student','front@add_student');
+Route::post('/admin/modon','front@save_user');
