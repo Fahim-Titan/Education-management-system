@@ -76,9 +76,22 @@
 
     </form>
 
-    {{--{!! Form::open() !!}--}}
+    {{--{!! Form::open(['url'=> '/admin/modon']) !!}--}}
+
+        {{--{{<!--- name Field --->--}}
+
+        {{--<div class="form-group">--}}
+
+         {{--{!! Form::label('name ', 'Name:') !!}--}}
+
+          {{--{!! Form::text('name', null, ['class' => 'form-control']) !!}--}}
+
+         {{--</div>}}--}}
 
     {{--{!! Form::close() !!}--}}
+
+
+
 
 
 
