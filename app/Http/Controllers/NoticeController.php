@@ -9,7 +9,7 @@ class NoticeController extends Controller {
    */
   public function index()
   {
-    
+    return view('notices');
   }
 
   /**
@@ -29,7 +29,7 @@ class NoticeController extends Controller {
    */
   public function store()
   {
-    
+    return "stored";
   }
 
   /**

@@ -9,7 +9,7 @@ class SubjectController extends Controller {
    */
   public function index()
   {
-    
+    return view ('subjects');
   }
 
   /**
@@ -29,7 +29,7 @@ class SubjectController extends Controller {
    */
   public function store()
   {
-    
+    return "stored";
   }
 
   /**

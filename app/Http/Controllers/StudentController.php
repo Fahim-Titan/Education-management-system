@@ -9,7 +9,7 @@ class StudentController extends Controller {
    */
   public function index()
   {
-    
+    return view('students');
   }
 
   /**
@@ -29,7 +29,7 @@ class StudentController extends Controller {
    */
   public function store()
   {
-    
+    return "stored";
   }
 
   /**

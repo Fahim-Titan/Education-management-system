@@ -9,7 +9,7 @@ class AttendenceController extends Controller {
    */
   public function index()
   {
-    
+    return View ('attendences');
   }
 
   /**

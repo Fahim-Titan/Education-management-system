@@ -9,7 +9,7 @@ class McqController extends Controller {
    */
   public function index()
   {
-    
+    return view('mcqs');
   }
 
   /**
@@ -29,7 +29,7 @@ class McqController extends Controller {
    */
   public function store()
   {
-    
+    return "stored";
   }
 
   /**

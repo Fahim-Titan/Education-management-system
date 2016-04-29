@@ -16,17 +16,17 @@ Route::get('/', function()
 	return View('welcome');
 });
 
-Route::get('/admin',function(){
+/* Route::get('/admin',function(){
 	return View('admins');
 });
+ */
 
 
-
-//Route::resource('admin', 'AdminController');
+Route::resource('admin', 'AdminController');
 Route::resource('teacher', 'TeacherController');
 Route::resource('student', 'StudentController');
 Route::resource('subject', 'SubjectController');
-Route::resource('couse', 'CouseController');
+Route::resource('course', 'CourseController');
 Route::resource('attendence', 'AttendenceController');
 Route::resource('notice', 'NoticeController');
 Route::resource('routine', 'RoutineController');

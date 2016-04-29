@@ -9,7 +9,7 @@ class AdminController extends Controller {
    */
   public function index()
   {
-    
+	return View('admins');
   }
 
   /**
@@ -29,7 +29,7 @@ class AdminController extends Controller {
    */
   public function store()
   {
-    
+     return "stored";
   }
 
   /**

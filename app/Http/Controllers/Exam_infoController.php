@@ -9,7 +9,7 @@ class Exam_infoController extends Controller {
    */
   public function index()
   {
-    
+    return view('exam_infos');
   }
 
   /**
@@ -29,7 +29,7 @@ class Exam_infoController extends Controller {
    */
   public function store()
   {
-    
+    return "stored";
   }
 
   /**

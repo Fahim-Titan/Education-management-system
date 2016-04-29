@@ -1,4 +1,4 @@
-{!! Form::open() !!}
+{!! Form::open(array('route' => 'admin.store', 'method' => 'POST')) !!}
 	<ul>
 		<li>
 			{!! Form::label('name', 'Name:') !!}

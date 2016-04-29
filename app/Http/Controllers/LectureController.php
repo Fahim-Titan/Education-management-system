@@ -9,7 +9,7 @@ class LectureController extends Controller {
    */
   public function index()
   {
-    
+    return view('lectures');
   }
 
   /**
@@ -29,7 +29,8 @@ class LectureController extends Controller {
    */
   public function store()
   {
-    
+    return "stored";
+	
   }
 
   /**

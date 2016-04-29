@@ -1,4 +1,4 @@
-{!! Form::open(array('route' => 'route.name', 'method' => 'POST')) !!}
+{!! Form::open(array('route' => 'lecture.store', 'method' => 'POST')) !!}
 	<ul>
 		<li>
 			{!! Form::label('t_id', 'T_id:') !!}

@@ -9,7 +9,7 @@ class EnrollmentController extends Controller {
    */
   public function index()
   {
-    
+    return view('enrollments');
   }
 
   /**
@@ -29,7 +29,7 @@ class EnrollmentController extends Controller {
    */
   public function store()
   {
-    
+    return "stored";
   }
 
   /**

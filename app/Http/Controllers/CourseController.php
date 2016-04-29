@@ -1,6 +1,6 @@
 <?php namespace App\Http\Controllers;
 
-class ResultController extends Controller {
+class CourseController extends Controller {
 
   /**
    * Display a listing of the resource.
@@ -9,7 +9,7 @@ class ResultController extends Controller {
    */
   public function index()
   {
-    return view('results');
+    return view('courses');
   }
 
   /**
